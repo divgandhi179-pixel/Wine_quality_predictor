@@ -79,29 +79,21 @@ jupyter notebook wine_quality_prediction.ipynb
 Run all cells to:
 
 Load and inspect the dataset
-
 Perform EDA
-
 Train the model
-
 Evaluate model performance
-
 Visualize feature importance
-
 Use the saved model to predict new wine samples:
-
 from joblib import load
 
 model = load("random_forest_model.joblib")
 prediction = model.predict(new_wine_features)
+
 📊 Model Evaluation
 
 We evaluate the model using metrics such as:
-
 Accuracy Score
-
 Confusion Matrix
-
 Feature Importance
 
 This helps assess how well the model predicts actual wine quality and which chemical attributes influence predictions the most.
